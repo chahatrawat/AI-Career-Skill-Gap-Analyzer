@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# environment files (commit only the .example files)
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+
+# logs
+*.log
+npm-debug.log*
+
+# test coverage
+coverage/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# database dumps and backups (schema.sql and seed.sql ARE committed)
+*.dump
+*.bak
